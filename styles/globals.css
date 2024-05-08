@@ -6,7 +6,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -347,19 +346,16 @@ body {
   overflow-x: hidden;
   background-color: var(--palm-green);
   font-family: "Open Sans";
-
-}
-main {
-  
 }
 ::-moz-selection {
-  color: var(--black);
-  background: var(--orange);
+  color: var(--silver);
+  background: var(--dark-green);
 }
 
 ::selection {
-  color: var(--black);
-  background: var(--orange);
+  color: var(--silver);
+  background: var(--dark-green);
+
 }
 
 ::-webkit-scrollbar {

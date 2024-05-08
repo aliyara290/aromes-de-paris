@@ -13,6 +13,9 @@ const HomeHero = () => {
           src="/videos/hero_video.mp4"
         ></video>
       </div>
+      <div className={style.bold}>
+        <div>Arômes De Paris</div>
+      </div>
     </div>
   );
 };

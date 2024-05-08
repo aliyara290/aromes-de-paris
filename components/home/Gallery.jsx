@@ -34,7 +34,7 @@ const Gallery = () => {
               </div>
               <div className={style.pic}>
                 <Image
-                  src={"/images/home/001.jpg"}
+                  src={"/images/home/006.jpg"}
                   alt="pic"
                   width={700}
                   height={700}
@@ -53,7 +53,7 @@ const Gallery = () => {
               <div className={style.column}>
                 <div className={style.pic}>
                   <Image
-                    src={"/images/home/004.png"}
+                    src={"/images/home/005.jpg"}
                     alt="pic"
                     width={700}
                     height={700}
@@ -61,7 +61,7 @@ const Gallery = () => {
                 </div>
                 <div className={style.pic}>
                   <Image
-                    src={"/images/home/005.jpg"}
+                    src={"/images/home/001.jpg"}
                     alt="pic"
                     width={700}
                     height={700}

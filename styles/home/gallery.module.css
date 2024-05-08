@@ -37,7 +37,6 @@
     object-fit: cover;
 }
   .column {
-      
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -48,7 +47,6 @@
     grid-column: span 2 / span 2;
     overflow: hidden;
     width: 100%;
-    background-color: var(--dark-green);
   }
   .video video {
     width: 100%;
