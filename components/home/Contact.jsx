@@ -29,7 +29,7 @@ const Contact = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.instagram.com/stretchedweb?igsh=Z2dlZ2xlanV6ZXF4&utm_source=qr"
+                  href="https://www.instagram.com/aromes_de_paris"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -61,7 +61,7 @@ const Contact = () => {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/profile.php?id=61557683626508&mibextid=LQQJ4d"
+                  href="https://web.facebook.com/p/Ar%C3%B4mes-de-Paris-100067833978879/?_rdc=1&_rdr"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
