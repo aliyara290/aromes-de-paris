@@ -1,29 +1,10 @@
-import styled from "styled-components";
+import style from '@/styles/header.module.css'
 
-const StyledHeader = styled.div`
-  width: 100%;
 
-`;
-// const StyledHeaderContent = styled.div`
-  
-// `;
-const StyledLogo = styled.div`
-  position: fixed;
-  top: 45px;
-  left: 45px;
-  z-index: 1802342098312;
-`
-const StyledHumberger = styled.div`
-  position: fixed;
-  top: 45px;
-  right: 45px;
-  z-index: 1802342098312;
-`;
 const Header = () => {
   return (
-    <StyledHeader>
-      {/* <StyledHeaderContent> */}
-        <StyledLogo>
+    <div className={style.content}>
+        <div className={style.logo}>
           <svg
             id="Layer_1"
             data-name="Layer 1"
@@ -44,8 +25,8 @@ const Header = () => {
               transform="translate(-108 -107.28)"
             />
           </svg>
-        </StyledLogo>
-        <StyledHumberger>
+        </div>
+        <div className={style.hamburger}>
           <svg
             id="Layer_1"
             data-name="Layer 1"
@@ -59,9 +40,9 @@ const Header = () => {
             <rect y="4" width="15" height="2" />
             <rect y="8" width="15" height="2" />
           </svg>
-        </StyledHumberger>
+        </div>
       {/* </StyledHeaderContent> */}
-    </StyledHeader>
+    </div>
   );
 };
 

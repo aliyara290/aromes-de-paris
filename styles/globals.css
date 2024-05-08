@@ -1,7 +1,4 @@
-import { createGlobalStyle } from "styled-components";
-
-const GlobalStyle = createGlobalStyle`
-    @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -14,10 +11,10 @@ const GlobalStyle = createGlobalStyle`
 
 
 :root {
-  --palm-green: #20362C;
+  --palm-green: #1a2c24;
   --silver: #eeeef2;
   --dark-green: #0B110E;
-  --gold: #DBC26E;
+  --gold: #C9AB81;
   --grey: #A5A5A5;
 
   --fz-xxxs: 11px;
@@ -28,8 +25,8 @@ const GlobalStyle = createGlobalStyle`
   --fz-lg: 18px;
   --fz-xl: 20px;
   --fz-2xl: 22px;
-  --fz-3xl: 2rem;
-  --fz-4xl: 4rem;
+  --fz-3xl: 2.5rem;
+  --fz-4xl: 4.5rem;
   --fz-5xl: 7rem;
   --fz-6xl: 12rem;
 
@@ -332,7 +329,7 @@ const GlobalStyle = createGlobalStyle`
 
 /* Pacifico */
 
-/* @font-face {
+@font-face {
   font-family: "Pacifico";
   src: url("../fonts/pacifico/Pacifico-Regular.eot");
   src: url("../fonts/pacifico/Pacifico-Regular.woff2") format("woff2"),
@@ -340,18 +337,21 @@ const GlobalStyle = createGlobalStyle`
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-} */
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
 }
 body {
-  width: 100%;
   overflow-x: hidden;
   background-color: var(--palm-green);
-  font-family: "Playfair";
-}
+  font-family: "Open Sans";
 
+}
+main {
+  
+}
 ::-moz-selection {
   color: var(--black);
   background: var(--orange);
@@ -380,9 +380,3 @@ body {
 ::-webkit-scrollbar-track-piece {
   border: none;
 }
-
-
-
-
-`;
-export default GlobalStyle;
