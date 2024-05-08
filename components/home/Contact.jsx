@@ -98,10 +98,10 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27526.33443511808!2d-9.612148291884932!3d30.413648286931824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b72331000767%3A0xc327b8a1fb064ab9!2sAr%C3%B4mes%20de%20Paris!5e0!3m2!1sen!2sma!4v1715183014324!5m2!1sen!2sma"
             width="290"
             height="290"
-            style={{border: 'none', outline: 'none'}}
-            allowfullscreen=""
+            style={{ border: "none", outline: "none" }}
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
