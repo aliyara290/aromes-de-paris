@@ -4,7 +4,7 @@ import { MenuData } from "@/data/MenuData.js";
 
 const Menu = () => {
   return (
-    <div className={style.content}>
+    <section className={style.content}>
       <div className={style.inner}>
         <div className={style.container}>
           <Heading
@@ -33,7 +33,7 @@ const Menu = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

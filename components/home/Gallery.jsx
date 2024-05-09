@@ -4,7 +4,7 @@ import Heading from "@/components/Heading";
 
 const Gallery = () => {
   return (
-    <div className={style.content}>
+    <section className={style.content} id="gallery">
       <div className={style.inner}>
         <div className={style.container}>
           <Heading
@@ -72,7 +72,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

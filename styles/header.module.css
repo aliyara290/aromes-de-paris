@@ -2,11 +2,160 @@
   position: fixed;
   top: 60px;
   left: 75px;
-  z-index: 1802342098312;
+  z-index: 180234200098312;
+}
+.hamburger:hover.active .bar {
+  transform: translateY(-100%);
+}
+.hamburger.active .bar {
+  transform: translateY(-100%);
+}
+.hamburger:hover.active .bar_two {
+  display: block;
+}
+.hamburger:hover.active .bar_three {
+  transform: translateY(100%);
+}
+.hamburger.active .bar_three {
+  transform: translateY(100%);
 }
 .hamburger {
   position: fixed;
   top: 60px;
   right: 75px;
   z-index: 1802342098312;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* .hamburger svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.hamburger svg rect {
+  transition: transform 0.2s ease;
+}
+.hamburger:hover .bar {
+  transform: translateY(2px);
+}
+.hamburger:hover .bar_two {
+  display: none;
+}
+.hamburger:hover .bar_three {
+  transform: translateY(-2px);
+}
+.navigation.active {
+  top: 0;
+}
+.navigation.active .pages li span::after {
+  transform: none;
+}
+.navigation.active .social ul li {
+  transform: none;
+}
+.navigation {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 50svh;
+  background-color: var(--dark-green);
+  z-index: 1802008302;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid var(--gold);
+  transition: top 0.7s ease;
+}
+
+.pages {
+  display: flex;
+}
+.pages li {
+  margin: 3px 25px;
+}
+.pages li span {
+  font-size: 2.8rem;
+  font-weight: 600;
+  font-family: "Playfair";
+  color: transparent;
+  position: relative;
+  overflow: hidden;
+  line-height: 1.2;
+}
+.pages li span::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--gold);
+  transform: translateY(100%);
+  transition: top 0.4s ease, transform 0.4s ease;
+  transition-delay: 0.8s;
+}
+.pages li span::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--silver);
+  transition: top 0.4s ease;
+}
+.pages li:hover span::after {
+  top: -100%;
+}
+.pages li:hover span::before {
+  top: 0;
+}
+
+.social {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.social ul {
+  display: flex;
+  overflow: hidden;
+}
+.social ul li {
+  margin: 0 10px;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+  transition-delay: 0.8s;
+}
+.social ul li a {
+  padding: 5px 10px;
+  font-size: var(--fz-sm);
+  font-weight: 300;
+  color: var(--gold);
+  position: relative;
+}
+
+.social ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1.1px;
+  background-color: var(--gold);
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.social ul li:hover a::after {
+  transform-origin: left;
+  transform: scaleX(1);
 }

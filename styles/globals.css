@@ -347,6 +347,9 @@ body {
   background-color: var(--palm-green);
   font-family: "Open Sans";
 }
+/* .navigation.active {
+  top: 0;
+} */
 ::-moz-selection {
   color: var(--silver);
   background: var(--dark-green);

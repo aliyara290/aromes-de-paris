@@ -2,7 +2,7 @@ import style from "@/styles/home/contact.module.css";
 
 const Contact = () => {
   return (
-    <div className={style.content}>
+    <section className={style.content} id="contact">
       <div className={style.container}>
         <div className={style.details}>
           <div className={style.heading}>
@@ -105,7 +105,7 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

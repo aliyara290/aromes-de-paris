@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <div className={style.content}>
+    <section className={style.content}>
       <div className={style.inner}>
         <div className={style.container}>
           <Heading
@@ -44,7 +44,7 @@ const Team = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

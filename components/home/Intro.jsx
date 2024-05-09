@@ -4,7 +4,7 @@ import Heading from "@/components/Heading.jsx";
 
 const Intro = () => {
   return (
-    <div className={style.content}>
+    <section className={style.content}>
       <div className={style.inner}>
         <div className={style.container}>
           <Heading
@@ -67,7 +67,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
