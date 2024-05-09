@@ -24,7 +24,7 @@ const AboutUs = () => {
             </div>
             <div className={style.pic}>
                 <Image 
-                src={'/images/home/004.jpg'}
+                src={'/images/home/002.jpg'}
                 alt="pic"
                 width={400}
                 height={400}
