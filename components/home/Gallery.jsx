@@ -4,15 +4,16 @@ import Heading from "@/components/Heading";
 
 const Gallery = () => {
   return (
-    <section className={style.content} id="gallery">
+    <section className={style.content}>
       <div className={style.inner}>
-        <div className={style.container}>
+        <div className={style.container} id="gallery">
           <Heading
             subHeading={"- Restaurant De Luxe -"}
             topHeading={"Photo"}
             botHeading={"Gallery"}
             centerHeading={true}
             showSubHeading={true}
+            
           />
           <div className={style.gallery}>
             <div className={style.row}>

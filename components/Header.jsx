@@ -17,10 +17,16 @@ const Header = () => {
     navigation.classList.toggle(`${style.active}`);
     hamburger.classList.toggle(`${style.active}`);
   };
+  const handleCloseMenu = () => {
+    const navigation = document.querySelector("#navigation");
+    const hamburger = document.querySelector("#hamburger");
+    navigation.classList.remove(`${style.active}`);
+    hamburger.classList.remove(`${style.active}`);
+  };
 
   return (
     <div className={style.content}>
-      <div className={style.logo}>
+      <div className={style.logo} onClick={() => handleCloseMenu()}>
         <Link href={"/"}>
           <svg
             id="Layer_1"
@@ -44,22 +50,22 @@ const Header = () => {
       </div>
       <div className={style.navigation} id="navigation">
         <ul className={style.pages}>
-          <li className="overflow-hidden">
+          <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <Link href={"/about"}>
               <span className="link">About</span>
             </Link>
           </li>
-          <li className="overflow-hidden">
+          <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <Link href={"/menu"}>
               <span className="link">Menu</span>
             </Link>
           </li>
-          <li className="overflow-hidden">
+          <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <Link href={"/#gallery"}>
               <span className="link">Gallery</span>
             </Link>
           </li>
-          <li className="overflow-hidden">
+          <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <a href="#contact">
               <span className="link">Contact</span>
             </a>

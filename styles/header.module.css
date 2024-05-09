@@ -33,11 +33,24 @@
   justify-content: center;
   cursor: pointer;
 }
-/* .hamburger svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.hamburger::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ac926dd7;
+  z-index: -1;
+  transition: width .1s ease, height .1s ease;
+  backdrop-filter: blur(10px);
+}
+.hamburger:active::after {
+  width: 100%;
+  height: 100%;
+}
 .hamburger svg rect {
   transition: transform 0.2s ease;
 }
@@ -53,11 +66,14 @@
 .navigation.active {
   top: 0;
 }
-.navigation.active .pages li span::after {
+.navigation.active .pages li {
   transform: none;
+  transition-delay: 1s;
+
 }
 .navigation.active .social ul li {
   transform: none;
+  transition-delay: 1s;
 }
 .navigation {
   position: fixed;
@@ -72,13 +88,17 @@
   justify-content: center;
   border-bottom: 3px solid var(--gold);
   transition: top 0.7s ease;
+  transition-delay: 0.3s;
 }
 
 .pages {
   display: flex;
+  overflow: hidden;
 }
 .pages li {
   margin: 3px 25px;
+  transform: translateY(100%);
+  transition: top 0.4s ease, transform 0.3s ease;
 }
 .pages li span {
   font-size: 2.8rem;
@@ -97,9 +117,8 @@
   width: 100%;
   height: 100%;
   color: var(--gold);
-  transform: translateY(100%);
-  transition: top 0.4s ease, transform 0.4s ease;
-  transition-delay: 0.8s;
+  transition: top 0.4s ease;
+
 }
 .pages li span::before {
   content: attr(data-text);
@@ -131,11 +150,11 @@
 .social ul li {
   margin: 0 10px;
   transform: translateY(100%);
-  transition: transform 0.4s ease;
-  transition-delay: 0.8s;
+  transition: transform 0.3s ease;
+  line-height: 2;
 }
 .social ul li a {
-  padding: 5px 10px;
+  padding: 1px 10px;
   font-size: var(--fz-sm);
   font-weight: 300;
   color: var(--gold);

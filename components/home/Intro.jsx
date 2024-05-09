@@ -32,7 +32,7 @@ const Intro = () => {
               </div>
               <div className={style.btn}>
                 <button>
-                  <a href="">Voir Les Photos</a>
+                  <a href="">En savoir plus sur nous</a>
                 </button>
               </div>
             </div>

@@ -15,6 +15,7 @@
     padding: 150px 60px;
     padding-bottom: 0;
     position: relative;
+    background-color: var(--dark-green);
 }
 .heading{
     padding-bottom: 30px;
@@ -41,13 +42,13 @@
     font-size: var(--fz-sm);
     color: var(--grey);
     padding-bottom: 12px;
+    text-decoration: underline;
 }
 .phone {
     padding-bottom: 23px;
 }
 .email {
     padding-bottom: 23px;
-    text-decoration: underline;
 }
 .details a:hover {
     color: var(--gold);
@@ -77,10 +78,14 @@
    margin-top: 60px;
 }
 .direction a {
-    background-color: var(--dark-green);
+    background-color: var(--gold);
     padding: 20px 20px;
     text-transform: uppercase;
     font-size: var(--fz-xs);
+    font-weight: 500;
+    color: var(--dark-green);
+    border-radius: 5px;
+    text-decoration: none;
 }
 .direction a:hover {
     background-color: var(--silver);

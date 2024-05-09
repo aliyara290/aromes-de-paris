@@ -12,8 +12,8 @@ export default function Home() {
       <HomeHero />
       <Intro />
       <Menu />
-      <Team />
       <Gallery />
+      <Team />
     </>
   );
 }

@@ -30,13 +30,14 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  font-size: 13vw;
+  font-size: 12.5vw;
   font-family: "Playfair";
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 1;
   padding-bottom: 20px;
   color: var(--silver);
-  /* z-index: 3; */
+  z-index: 3;
 }
