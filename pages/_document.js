@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta name="theme-color" content="#1a2c24"></meta>
         <meta
           name="description"
           content="Découvrez Aromes De Paris, une véritable expérience de brasserie parisienne à Agadir. Profitez d'un cadre chic, de plats délicieux comprenant de la volaille, des burgers, du poisson et des pâtisseries, et d'un service professionnel."

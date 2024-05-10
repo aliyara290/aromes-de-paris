@@ -37,8 +37,8 @@ const Gallery = () => {
         <div className={style.container} id="gallery">
           <Heading
             subHeading={"- Restaurant De Luxe -"}
-            topHeading={"Photo"}
-            botHeading={"Gallery"}
+            topHeading={"Galerie de"}
+            botHeading={"Photos"}
             centerHeading={true}
             showSubHeading={true}
           />

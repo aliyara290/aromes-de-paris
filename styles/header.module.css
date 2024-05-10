@@ -191,7 +191,7 @@
 }
 @media (max-width: 670px) {
   .navigation {
-    height: 100svh;
+    height: 100vh;
   }
   .pages {
     flex-direction: column;
