@@ -25,7 +25,8 @@ const Team = () => {
                 />
               </div>
               <div className={style.position}>
-                <h4>Gérant et propriétaire</h4>
+                <h4>Zakaria El Berrad</h4>
+                <span>Gérant et propriétaire</span>
               </div>
             </div>
             <div className={style.card}>
@@ -38,7 +39,8 @@ const Team = () => {
                 />
               </div>
               <div className={style.position}>
-                <h4>chef de cuisine</h4>
+                <h4>Abderrahmane Garouaz</h4>
+                <span>chef de cuisine</span>
               </div>
             </div>
           </div>
