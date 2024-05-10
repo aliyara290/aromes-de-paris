@@ -1,13 +1,13 @@
 import AboutIntro from "@/components/about/Intro";
 import AboutUs from "@/components/about/About";
-import Team from "@/components/home/Team";
+import Menu from "@/components/home/Menu";
 
 const About = () => {
     return ( 
         <>
         <AboutIntro />
         <AboutUs />
-        <Team />
+        <Menu />
         </>
      );
 }
