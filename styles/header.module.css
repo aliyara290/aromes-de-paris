@@ -66,12 +66,12 @@
 .navigation.active {
   top: 0;
 }
-.navigation.active .pages li {
+.navigation.active .pages li div {
   transform: none;
   transition-delay: 1s;
 
 }
-.navigation.active .social ul li {
+.navigation.active .social ul li  {
   transform: none;
   transition-delay: 1s;
 }
@@ -97,10 +97,8 @@
 }
 .pages li {
   margin: 3px 25px;
-  transform: translateY(100%);
-  transition: top 0.4s ease, transform 0.3s ease;
 }
-.pages li span {
+.pages li div {
   font-size: 2.8rem;
   font-weight: 600;
   font-family: "Playfair";
@@ -108,8 +106,10 @@
   position: relative;
   overflow: hidden;
   line-height: 1.2;
+  transform: translateY(100%);
+  transition: top 0.4s ease, transform 0.3s ease;
 }
-.pages li span::after {
+.pages li div::after {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -120,7 +120,7 @@
   transition: top 0.4s ease;
 
 }
-.pages li span::before {
+.pages li div::before {
   content: attr(data-text);
   position: absolute;
   top: 100%;
@@ -130,10 +130,10 @@
   color: var(--silver);
   transition: top 0.4s ease;
 }
-.pages li:hover span::after {
+.pages li:hover div::after {
   top: -100%;
 }
-.pages li:hover span::before {
+.pages li:hover div::before {
   top: 0;
 }
 
@@ -178,7 +178,31 @@
   transform-origin: left;
   transform: scaleX(1);
 }
-
+@media (max-width: 780px) {
+  .pages li span {
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: "Playfair";
+    color: transparent;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 670px) {
+  .navigation {
+    height: 100svh;
+  }
+  .pages {
+    flex-direction: column;
+  }
+  .pages li {
+    margin: 20px 0;
+  }
+  .pages li span {
+    font-size: 3rem;
+  }
+}
 @media (max-width: 600px) {
   .logo {
     position: fixed;
@@ -191,7 +215,7 @@
   }
   .hamburger {
     position: fixed;
-    top: 30px;
+    top: 36px;
     right: 35px;
     z-index: 1802342098312;
     width: 50px;
@@ -207,4 +231,12 @@
     width: 30px;
   }
   
+}
+@media (max-width: 340px) {
+  .pages li span {
+    font-size: 2.5rem;
+  }
+  .pages li {
+    margin: 10px 0;
+  }
 }

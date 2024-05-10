@@ -41,6 +41,7 @@
 .pic_inner {
   height: 0;
   overflow: hidden;
+  background-color: var(--load);
 }
 .pic img {
   width: 100%;

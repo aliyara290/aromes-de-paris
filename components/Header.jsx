@@ -52,22 +52,22 @@ const Header = () => {
         <ul className={style.pages}>
           <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <Link href={"/about"}>
-              <span className="link">About</span>
+              <div className="link">About</div>
             </Link>
           </li>
           <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <Link href={"/menu"}>
-              <span className="link">Menu</span>
+              <div className="link">Menu</div>
             </Link>
           </li>
           <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <Link href={"/#gallery"}>
-              <span className="link">Gallery</span>
+              <div className="link">Gallery</div>
             </Link>
           </li>
           <li className="overflow-hidden" onClick={() => handleCloseMenu()}>
             <a href="#contact">
-              <span className="link">Contact</span>
+              <div className="link">Contact</div>
             </a>
           </li>
         </ul>

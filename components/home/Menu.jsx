@@ -23,7 +23,7 @@ const Menu = () => {
         stagger: 0.3,
         scrollTrigger: {
           trigger: ".categorie",
-          start: "center bottom",
+          start: "30% bottom",
           end: "bottom bottom",
           ease: "power4.inOut",
         },
