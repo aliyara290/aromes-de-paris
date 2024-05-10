@@ -1,8 +1,34 @@
+"use client";
+import { useEffect } from "react";
 import style from "@/styles/menu/menu.module.css";
 import Heading from "@/components/Heading";
 import { MenuData } from "@/data/MenuData.js";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const Menu = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.fromTo(
+      ".categorie",
+      {
+        y: 100,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.4,
+        stagger: 0.3,
+        scrollTrigger: {
+          trigger: ".categorie",
+          start: "center bottom",
+          end: "bottom bottom",
+          ease: "power4.inOut",
+        },
+      }
+    );
+  }, []);
   return (
     <section className={style.content}>
       <div className={style.inner}>
@@ -17,7 +43,7 @@ const Menu = () => {
           <div className={style.categories}>
 
           {Object.entries(MenuData).map(([category, items]) => (
-            <div key={category} className={style.category}>
+            <div key={category} className={`${style.category} categorie`}>
               <h2>{category}</h2>
               <div className={style.cards}>
                 {items.map((item, index) => (

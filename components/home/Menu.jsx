@@ -1,13 +1,37 @@
+"use client";
+import { useEffect } from "react";
 import style from "@/styles/home/menu.module.css";
 import Heading from "@/components/Heading";
 import { MenuData } from "@/data/MenuData.js";
 import Link from "next/link";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const Menu = () => {
-  // Get the keys of MenuData
-  const categories = Object.keys(MenuData);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.fromTo(
+      ".categorie",
+      {
+        y: 100,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.4,
+        stagger: 0.3,
+        scrollTrigger: {
+          trigger: ".categorie",
+          start: "center bottom",
+          end: "bottom bottom",
+          ease: "power4.inOut",
+        },
+      }
+    );
+  }, []);
 
-  // Extract the first three categories
+  const categories = Object.keys(MenuData);
   const slice = categories.slice(0, 4);
 
   return (
@@ -22,8 +46,8 @@ const Menu = () => {
             showSubHeading={true}
           />
           <div className={style.categories}>
-            {slice.map(category => (
-              <div key={category} className={style.category}>
+            {slice.map((category) => (
+              <div key={category} className={`${style.category} categorie`}>
                 <h2>{category}</h2>
                 <div className={style.cards}>
                   {MenuData[category].map((item, itemIndex) => (
@@ -42,7 +66,7 @@ const Menu = () => {
           </div>
           <div className={style.btn}>
             <button>
-              <Link href={'/menu'}>Explore plus</Link>
+              <Link href={"/menu"}>Explore plus</Link>
             </button>
           </div>
         </div>

@@ -1,8 +1,31 @@
+"use client";
+import { useEffect } from "react";
 import style from "@/styles/about/about.module.css";
 import Heading from "@/components/Heading.jsx";
 import Image from "next/image";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const AboutUs = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.to(
+      ".pic_jd6",
+
+      {
+        borderTopLeftRadius: "50%",
+        borderBottomRightRadius: "50%",
+        duration: 1,
+        stagger: 0.4,
+        scrollTrigger: {
+          trigger: ".pic_jd6",
+          start: "70% bottom",
+          end: "bottom bottom",
+          ease: "power4.inOut",
+        },
+      }
+    );
+  }, []);
   return (
     <div className={style.content}>
       <div className={style.inner}>
@@ -22,7 +45,7 @@ const AboutUs = () => {
               <br />
               <p>Au cœur d'Agadir, Aromes De Paris est bien plus qu'un simple restaurant - c'est un lieu où l'art de vivre à la française prend vie. Inspirés par les recettes classiques de la cuisine parisienne, nos plats sont préparés avec un souci du détail et une recherche constante de l'excellence. Avec son ambiance chic et décontractée, Aromes De Paris invite à savourer les plaisirs simples de la vie.</p>
             </div>
-            <div className={style.pic}>
+            <div className={`${style.pic} pic_jd6`}>
                 <Image 
                 src={'/images/home/002.jpg'}
                 alt="pic"

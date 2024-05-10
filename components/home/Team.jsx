@@ -10,7 +10,7 @@ const Team = () => {
           <Heading
             subHeading={"- Équipe -"}
             topHeading={"Gérant &"}
-            botHeading={"fondateur"}
+            botHeading={"chef"}
             centerHeading={true}
             showSubHeading={true}
           />

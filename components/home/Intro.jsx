@@ -1,8 +1,35 @@
+"use client";
+import { useEffect } from "react";
 import Image from "next/image";
 import style from "@/styles/home/intro.module.css";
 import Heading from "@/components/Heading.jsx";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const Intro = () => {
+  gsap.registerPlugin(ScrollTrigger)
+  useEffect(() => {
+    gsap.fromTo(
+      ".prt",
+      {
+        y: 100,
+        opacity: 0
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.4,
+        stagger: 0.3,
+        scrollTrigger: {
+          trigger: ".prt",
+          start: "center bottom",
+          end: "bottom bottom",
+          ease: "power4.inOut",
+        },
+      }
+    );
+  }, []);
+
   return (
     <section className={style.content}>
       <div className={style.inner}>
@@ -20,7 +47,7 @@ const Intro = () => {
                 <span>Notre Histoire</span>
               </div>
               <div className={style.heading}>
-                <h1>Aromes De Paris</h1>
+                <h1 className="prt">Aromes De Paris</h1>
               </div>
               <div className={style.body}>
                 <p>
@@ -38,7 +65,7 @@ const Intro = () => {
             </div>
             <div className={style.part_two}>
               <div className={style.pics}>
-                <div className={style.pic}>
+                <div className={`${style.pic} prt`}>
                   <Image
                     src={"/images/home/intro-1.png"}
                     alt="pic"
@@ -46,7 +73,7 @@ const Intro = () => {
                     height={300}
                   />
                 </div>
-                <div className={style.pic}>
+                <div className={`${style.pic} prt`}>
                   <Image
                     src={"/images/home/intro-2.png"}
                     alt="pic"
@@ -54,7 +81,7 @@ const Intro = () => {
                     height={300}
                   />
                 </div>
-                <div className={style.pic}>
+                <div className={`${style.pic} prt`}>
                   <Image
                     src={"/images/home/intro-3.png"}
                     alt="pic"

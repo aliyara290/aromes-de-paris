@@ -27,7 +27,7 @@
 }
 .bold {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   width: 100%;
   font-size: 12.5vw;
@@ -36,8 +36,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.2;
-  padding-bottom: 10px;
+  line-height: 1;
   color: var(--silver);
   z-index: 3;
+}
+.bold div {
+  transform: translateY(100%);
 }

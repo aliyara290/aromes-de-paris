@@ -1,9 +1,8 @@
 "use client";
 import { useRef, useEffect } from "react";
 import style from "@/styles/heading.module.css";
-// import gsap from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const Title = ({
   subHeading,
@@ -15,34 +14,34 @@ const Title = ({
   showThirdHeading,
 }) => {
   const triggerRef = useRef(null);
-  
-  // useEffect(() => {
-  //   gsap.registerPlugin(ScrollTrigger);
-  //   const animation = gsap.fromTo(
-  //     triggerRef.current.querySelectorAll(".head_part"),
-  //     {
-  //       y: "100%",
-  //       opacity: 0,
-  //     },
-  //     {
-  //       y: 0,
-  //       opacity: 1,
-  //       duration: 0.3,
-  //       stagger: 0.4,
-  //       scrollTrigger: {
-  //         trigger: triggerRef.current,
-  //         start: "bottom bottom",
-  //         end: "bottom center",
-  //         toggleActions: "play none none reverse",
-  //         ease: "power4.inOut",
-  //       },
-  //     }
-  //   );
 
-  //   return () => {
-  //     animation.kill();
-  //   };
-  // }, [subHeading, topHeading, botHeading]);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    const animation = gsap.fromTo(
+      triggerRef.current.querySelectorAll(".head_part"),
+      {
+        y: "100%",
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.3,
+        stagger: 0.4,
+        scrollTrigger: {
+          trigger: triggerRef.current,
+          start: "bottom bottom",
+          end: "bottom center",
+          toggleActions: "play none none reverse",
+          ease: "power4.inOut",
+        },
+      }
+    );
+
+    return () => {
+      animation.kill();
+    };
+  }, []);
 
   const headingStyle = centerHeading
     ? {
