@@ -9,8 +9,8 @@ const Team = () => {
         <div className={style.container}>
           <Heading
             subHeading={"- Équipe -"}
-            topHeading={"Gérant &"}
-            botHeading={"chef"}
+            topHeading={"Gérant"}
+            botHeading={"& chef"}
             centerHeading={true}
             showSubHeading={true}
           />
