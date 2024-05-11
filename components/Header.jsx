@@ -28,7 +28,6 @@ const Header = () => {
     <div className={style.content}>
       <div className={style.logo} onClick={() => handleCloseMenu()}>
         <Link href={"/"}>
-         
           <svg
             id="Layer_1"
             data-name="Layer 1"
