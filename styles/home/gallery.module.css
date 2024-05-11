@@ -88,6 +88,9 @@
   .row:first-child {
     margin-bottom: 10px;
   }
+  .column {
+    gap: 10px;
+  }
 }
 @media (max-width: 500px) and (max-height: 1000px) {
   .pic {
