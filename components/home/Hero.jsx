@@ -20,6 +20,7 @@ const HomeHero = () => {
           autoPlay={true}
           muted={true}
           loop={true}
+          controls={false}
           src="/videos/hero_video.mp4"
         ></video>
       </div>

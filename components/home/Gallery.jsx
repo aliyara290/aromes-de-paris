@@ -52,6 +52,7 @@ const Gallery = () => {
                     muted={true}
                     loop={true}
                     autoPlay={true}
+                    controls={false}
                   ></video>
                 </div>
               </div>
