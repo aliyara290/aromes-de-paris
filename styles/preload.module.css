@@ -11,7 +11,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: var(--dark-green);
+    background-color: var(--palm-green);
 }
 .logo_typo {
     position: absolute;
