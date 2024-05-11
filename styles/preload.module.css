@@ -27,6 +27,7 @@
     font-weight: 700;
     color: var(--gold);
     font-family: 'Playfair';
+    transform: translateY(-100%);
 }
 .welcome {
     width: 100%;
