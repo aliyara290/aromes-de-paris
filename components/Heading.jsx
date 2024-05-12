@@ -32,7 +32,6 @@ const Title = ({
           trigger: triggerRef.current,
           start: "bottom bottom",
           end: "bottom center",
-          toggleActions: "play none none reverse",
           ease: "power4.inOut",
         },
       }
