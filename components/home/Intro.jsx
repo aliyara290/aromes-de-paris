@@ -59,7 +59,7 @@ const Intro = () => {
               </div>
               <div className={style.btn}>
                 <button>
-                  <a href="">En savoir plus sur nous</a>
+                  <a href="/about">En savoir plus sur nous</a>
                 </button>
               </div>
             </div>
