@@ -10,18 +10,18 @@ const Contact = () => {
           </div>
           <div className={style.phone}>
             <h3>Réserver par téléphone</h3>
-            <a href="tel:+212664718515">+212664718515</a>
+            <a href="tel:+212664458015">+212664458015</a>
           </div>
           <div className={style.email}>
             <h3>Réserver par email</h3>
             <a href="mailto:aromesdeparis.info@gmail.com">
-              aromesdeparis.info@gmail.com
+            gourmetgroveo@gmail.com
             </a>
           </div>
           <div className={style.address}>
             <h3>Localisation</h3>
             <span>
-              8, immeuble Mimosa, avenue Lhoucine Achengli Founty - Agadir
+              8, immeuble Mimosa, Agdal - Rabat
             </span>
           </div>
           <div className={style.social}>
@@ -29,7 +29,7 @@ const Contact = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.instagram.com/aromes_de_paris"
+                  href="https://www.instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -61,10 +61,10 @@ const Contact = () => {
               </li>
               <li>
                 <a
-                  href="https://web.facebook.com/p/Ar%C3%B4mes-de-Paris-100067833978879/?_rdc=1&_rdr"
+                  href="https://web.facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Instagram"
+                  aria-label="Facebook"
                 >
                   <svg
                     id="Layer_1"

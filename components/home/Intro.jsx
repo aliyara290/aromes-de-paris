@@ -36,8 +36,8 @@ const Intro = () => {
         <div className={style.container}>
           <Heading
             subHeading={"Bienvenue à"}
-            topHeading={"ARÔMES DE"}
-            botHeading={"PARIS"}
+            topHeading={"Gourmet"}
+            botHeading={"Grove"}
             centerHeading={true}
             showSubHeading={true}
           />
@@ -46,9 +46,11 @@ const Intro = () => {
               <div className={style.subheading}>
                 <span>Notre Histoire</span>
               </div>
+
               <div className={style.heading}>
-                <h1 className="prt">Aromes De Paris</h1>
+                <h1 className="prt">Gourmet Grove</h1>
               </div>
+
               <div className={style.body}>
                 <p>
                   Notre vision est claire : proposer à nos clients des plats
@@ -57,6 +59,7 @@ const Intro = () => {
                   souvenirs inoubliables pour chacun de nos clients.
                 </p>
               </div>
+              
               <div className={style.btn}>
                 <button>
                   <a href="/about">En savoir plus sur nous</a>

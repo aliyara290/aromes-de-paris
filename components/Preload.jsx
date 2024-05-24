@@ -61,19 +61,18 @@ const Preload = () => {
           <h2 className="welcome_text">Bienvenue</h2>
         </div>
         <div className={style.logo_typo}>
-          <div className="logo_paths">A</div>
+          <div className="logo_paths">G</div>
+          <div className="logo_paths">o</div>
+          <div className="logo_paths">u</div>
           <div className="logo_paths">r</div>
-          <div className="logo_paths">ô</div>
           <div className="logo_paths">m</div>
           <div className="logo_paths">e</div>
-          <div className="logo_paths pr-3">s</div>
-          <div className="logo_paths">D</div>
-          <div className="logo_paths pr-3">e</div>
-          <div className="logo_paths">P</div>
-          <div className="logo_paths">a</div>
+          <div className="logo_paths pr-3">t</div>
+          <div className="logo_paths">G</div>
           <div className="logo_paths">r</div>
-          <div className="logo_paths">i</div>
-          <div className="logo_paths">s</div>
+          <div className="logo_paths">o</div>
+          <div className="logo_paths">v</div>
+          <div className="logo_paths">e</div>
         </div>
       </div>
     </div>

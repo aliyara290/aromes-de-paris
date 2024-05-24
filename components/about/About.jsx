@@ -42,7 +42,7 @@ const AboutUs = () => {
           <div className={style.body}>
             <div className={style.text}>
               <p>
-                Aromes De Paris incarne la gastronomie parisienne à Agadir.
+                Gourmet Grove incarne la gastronomie parisienne à Rabat.
                 Niché dans un cadre élégant, notre brasserie offre une
                 expérience authentique où les saveurs traditionnelles se marient
                 à une ambiance chaleureuse. De nos plats exquis à notre service
@@ -51,12 +51,12 @@ const AboutUs = () => {
               </p>
               <br />
               <p>
-                Au cœur d'Agadir, Aromes De Paris est bien plus qu'un simple
+                Au cœur d'Rabat, Gourmet Grove est bien plus qu'un simple
                 restaurant - c'est un lieu où l'art de vivre à la française
                 prend vie. Inspirés par les recettes classiques de la cuisine
                 parisienne, nos plats sont préparés avec un souci du détail et
                 une recherche constante de l'excellence. Avec son ambiance chic
-                et décontractée, Aromes De Paris invite à savourer les plaisirs
+                et décontractée, Gourmet Grove invite à savourer les plaisirs
                 simples de la vie.
               </p>
             </div>

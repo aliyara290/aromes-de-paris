@@ -43,17 +43,15 @@ const Gallery = () => {
             showSubHeading={true}
           />
           <div className={style.gallery}>
-            
             <div className={style.row}>
               <div className={style.video}>
                 <div className={`${style.pic_inner} pic_kj4`}>
-                  <video
-                    src="/videos/home_gallery.mp4"
-                    muted={true}
-                    loop={true}
-                    autoPlay={true}
-                    controls={false}
-                  ></video>
+                  <Image
+                    src={"/images/home/g-cover.jpg"}
+                    alt="pic"
+                    width={700}
+                    height={700}
+                  />
                 </div>
               </div>
               <div className={style.column}>

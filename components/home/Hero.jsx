@@ -25,7 +25,7 @@ const HomeHero = () => {
         ></video>
       </div>
       <div className={`${style.bold} overflow-hidden`}>
-        <div className="hero__text">Arômes De Paris</div>
+        <div className="hero__text">Gourmet Grove</div>
       </div>
     </div>
   );

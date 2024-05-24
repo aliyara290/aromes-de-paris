@@ -63,7 +63,7 @@
   height: 100%;
   background-color: var(--load);
 }
-.video video {
+.video img {
   width: 100%;
   object-fit: cover;
   height: 100%;

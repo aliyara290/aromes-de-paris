@@ -25,7 +25,7 @@ const Team = () => {
                 />
               </div>
               <div className={style.position}>
-                <h4>Zakaria El Berrad</h4>
+                <h4>Mustafa Berrada</h4>
                 <span>Gérant et propriétaire</span>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Team = () => {
                 />
               </div>
               <div className={style.position}>
-                <h4>Abderrahmane Garouaz</h4>
+                <h4>Abderrahmane Mojhid</h4>
                 <span>chef de cuisine</span>
               </div>
             </div>
