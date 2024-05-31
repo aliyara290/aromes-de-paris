@@ -216,58 +216,58 @@ export const MenuData = {
     },
   ],
   // Appetizers
-  Apéritifs: [
-    {
-      name: "Escargots à la bourguignonne",
-      price: "95 Dhs",
-      type: "Appetizer",
-      image: "/images/menu/escargots_bourguignonne.jpg",
-    },
-    {
-      name: "Assiette de fromages français",
-      price: "90 Dhs",
-      type: "Appetizer",
-      image: "/images/menu/fromages_francais.jpg",
-    },
-    {
-      name: "Assiette de charcuterie artisanale",
-      price: "85 Dhs",
-      type: "Appetizer",
-      image: "/images/menu/charcuterie_artisanale.jpg",
-    },
-  ],
-  Bœuf: [
-    {
-      name: "Navarin de foies de boeuf à la purée",
-      price: "140 Dhs",
-      type: "Beef",
-      image: "/images/menu/navarin_de_foies_de_boeuf.jpg",
-    },
-    {
-      name: "Saté de boeuf à l'asiatique avec son riz",
-      price: "130 Dhs",
-      type: "Beef",
-      image: "/images/menu/sate_de_boeuf.jpg",
-    },
-    {
-      name: "Carpaccio de bœuf mariné à l'huile d'olive",
-      price: "100 Dhs",
-      type: "Beef",
-      image: "/images/menu/carpaccio_boeuf.jpg",
-    },
-    {
-      name: "Entrecôte grillée aux herbes",
-      price: "110 Dhs",
-      type: "Beef",
-      image: "/images/menu/entrecote_grillee.jpg",
-    },
-    {
-      name: "Burger gourmet",
-      price: "95 Dhs",
-      type: "Beef",
-      image: "/images/menu/burger_gourmet.jpg",
-    },
-  ],
+  // Apéritifs: [
+  //   {
+  //     name: "Escargots à la bourguignonne",
+  //     price: "95 Dhs",
+  //     type: "Appetizer",
+  //     image: "/images/menu/escargots_bourguignonne.jpg",
+  //   },
+  //   {
+  //     name: "Assiette de fromages français",
+  //     price: "90 Dhs",
+  //     type: "Appetizer",
+  //     image: "/images/menu/fromages_francais.jpg",
+  //   },
+  //   {
+  //     name: "Assiette de charcuterie artisanale",
+  //     price: "85 Dhs",
+  //     type: "Appetizer",
+  //     image: "/images/menu/charcuterie_artisanale.jpg",
+  //   },
+  // ],
+  // Bœuf: [
+  //   {
+  //     name: "Navarin de foies de boeuf à la purée",
+  //     price: "140 Dhs",
+  //     type: "Beef",
+  //     image: "/images/menu/navarin_de_foies_de_boeuf.jpg",
+  //   },
+  //   {
+  //     name: "Saté de boeuf à l'asiatique avec son riz",
+  //     price: "130 Dhs",
+  //     type: "Beef",
+  //     image: "/images/menu/sate_de_boeuf.jpg",
+  //   },
+  //   {
+  //     name: "Carpaccio de bœuf mariné à l'huile d'olive",
+  //     price: "100 Dhs",
+  //     type: "Beef",
+  //     image: "/images/menu/carpaccio_boeuf.jpg",
+  //   },
+  //   {
+  //     name: "Entrecôte grillée aux herbes",
+  //     price: "110 Dhs",
+  //     type: "Beef",
+  //     image: "/images/menu/entrecote_grillee.jpg",
+  //   },
+  //   {
+  //     name: "Burger gourmet",
+  //     price: "95 Dhs",
+  //     type: "Beef",
+  //     image: "/images/menu/burger_gourmet.jpg",
+  //   },
+  // ],
 
   // Chicken
   Poulette: [
@@ -303,202 +303,202 @@ export const MenuData = {
     },
   ],
 
-  // Fish
-  Poisson: [
-    {
-      name: "Crevettes à l'ail et au persil",
-      price: "80 Dhs",
-      type: "Seafood",
-      image: "/images/menu/crevettes_ail_persil.jpg",
-    },
-    {
-      name: "Carpaccio de saumon mariné à l'aneth",
-      price: "90 Dhs",
-      type: "Seafood",
-      image: "/images/menu/carpaccio_saumon.jpg",
-    },
-    {
-      name: "Moules marinières à la crème fraîche",
-      price: "70 Dhs",
-      type: "Seafood",
-      image: "/images/menu/moules_marinieres.jpg",
-    },
-    {
-      name: "Tartine de poulpe aux légumes grillés",
-      price: "65 Dhs",
-      type: "Seafood",
-      image: "/images/menu/tartine_de_poulpe.jpg",
-    },
-    {
-      name: "Brochettes de gambas et de légumes grillés",
-      price: "150 Dhs",
-      type: "Seafood",
-      image: "/images/menu/brochettes_gambas_legumes.jpg",
-    },
-    {
-      name: "Risotto aux fruits de mer et safran",
-      price: "130 Dhs",
-      type: "Seafood",
-      image: "/images/menu/risotto_fruits_mer.jpg",
-    },
-    {
-      name: "Calamars frits à la sauce tartare",
-      price: "85 Dhs",
-      type: "Seafood",
-      image: "/images/menu/calamars_frits.jpg",
-    },
-    {
-      name: "Filet de Saint-Pierre à la crème crevette et champignon",
-      price: "120 Dhs",
-      type: "Fish",
-      image: "/images/menu/filet_de_saint_pierre.jpg",
-    },
-    {
-      name: "Tajine d'ombrine à la marocaine",
-      price: "100 Dhs",
-      type: "Fish",
-      image: "/images/menu/tajine_d_ombrine.jpg",
-    },
-    {
-      name: "Saumon grillé à la provençale",
-      price: "100 Dhs",
-      type: "Fish",
-      image: "/images/menu/saumon_grille.jpg",
-    },
-    {
-      name: "Filet de dorade en papillote",
-      price: "90 Dhs",
-      type: "Fish",
-      image: "/images/menu/filet_dorade_papillote.jpg",
-    },
-  ],
+  // // Fish
+  // Poisson: [
+  //   {
+  //     name: "Crevettes à l'ail et au persil",
+  //     price: "80 Dhs",
+  //     type: "Seafood",
+  //     image: "/images/menu/crevettes_ail_persil.jpg",
+  //   },
+  //   {
+  //     name: "Carpaccio de saumon mariné à l'aneth",
+  //     price: "90 Dhs",
+  //     type: "Seafood",
+  //     image: "/images/menu/carpaccio_saumon.jpg",
+  //   },
+  //   {
+  //     name: "Moules marinières à la crème fraîche",
+  //     price: "70 Dhs",
+  //     type: "Seafood",
+  //     image: "/images/menu/moules_marinieres.jpg",
+  //   },
+  //   {
+  //     name: "Tartine de poulpe aux légumes grillés",
+  //     price: "65 Dhs",
+  //     type: "Seafood",
+  //     image: "/images/menu/tartine_de_poulpe.jpg",
+  //   },
+  //   {
+  //     name: "Brochettes de gambas et de légumes grillés",
+  //     price: "150 Dhs",
+  //     type: "Seafood",
+  //     image: "/images/menu/brochettes_gambas_legumes.jpg",
+  //   },
+  //   {
+  //     name: "Risotto aux fruits de mer et safran",
+  //     price: "130 Dhs",
+  //     type: "Seafood",
+  //     image: "/images/menu/risotto_fruits_mer.jpg",
+  //   },
+  //   {
+  //     name: "Calamars frits à la sauce tartare",
+  //     price: "85 Dhs",
+  //     type: "Seafood",
+  //     image: "/images/menu/calamars_frits.jpg",
+  //   },
+  //   {
+  //     name: "Filet de Saint-Pierre à la crème crevette et champignon",
+  //     price: "120 Dhs",
+  //     type: "Fish",
+  //     image: "/images/menu/filet_de_saint_pierre.jpg",
+  //   },
+  //   {
+  //     name: "Tajine d'ombrine à la marocaine",
+  //     price: "100 Dhs",
+  //     type: "Fish",
+  //     image: "/images/menu/tajine_d_ombrine.jpg",
+  //   },
+  //   {
+  //     name: "Saumon grillé à la provençale",
+  //     price: "100 Dhs",
+  //     type: "Fish",
+  //     image: "/images/menu/saumon_grille.jpg",
+  //   },
+  //   {
+  //     name: "Filet de dorade en papillote",
+  //     price: "90 Dhs",
+  //     type: "Fish",
+  //     image: "/images/menu/filet_dorade_papillote.jpg",
+  //   },
+  // ],
 
-  Pâtes: [
-    {
-      name: "Linguine aux fruits de mer",
-      price: "110 Dhs",
-      type: "Pasta",
-      image: "/images/menu/linguine_fruits_mer2.jpg",
-    },
-    {
-      name: "Raviolis aux truffes et à la crème fraîche",
-      price: "140 Dhs",
-      type: "Pasta",
-      image: "/images/menu/raviolis_truffes.jpg",
-    },
-    {
-      name: "Spaghetti carbonara",
-      price: "70 Dhs",
-      type: "Pasta",
-      image: "/images/menu/spaghetti_carbonara.jpg",
-    },
-    {
-      name: "Penne arrabiata",
-      price: "65 Dhs",
-      type: "Pasta",
-      image: "/images/menu/penne_arrabiata.jpg",
-    },
-  ],
+  // Pâtes: [
+  //   {
+  //     name: "Linguine aux fruits de mer",
+  //     price: "110 Dhs",
+  //     type: "Pasta",
+  //     image: "/images/menu/linguine_fruits_mer2.jpg",
+  //   },
+  //   {
+  //     name: "Raviolis aux truffes et à la crème fraîche",
+  //     price: "140 Dhs",
+  //     type: "Pasta",
+  //     image: "/images/menu/raviolis_truffes.jpg",
+  //   },
+  //   {
+  //     name: "Spaghetti carbonara",
+  //     price: "70 Dhs",
+  //     type: "Pasta",
+  //     image: "/images/menu/spaghetti_carbonara.jpg",
+  //   },
+  //   {
+  //     name: "Penne arrabiata",
+  //     price: "65 Dhs",
+  //     type: "Pasta",
+  //     image: "/images/menu/penne_arrabiata.jpg",
+  //   },
+  // ],
 
-  Porc: [
-    {
-      name: "Filet mignon de porc à la moutarde de Dijon",
-      price: "120 Dhs",
-      type: "Pork",
-      image: "/images/menu/filet_mignon_porc.jpg",
-    },
-    {
-      name: "Pulled Pork Sandwich",
-      price: "70 Dhs",
-      type: "Pork",
-      image: "/images/menu/pulled_pork_sandwich.jpg",
-    },
-    {
-      name: "Pork Schnitzel",
-      price: "80 Dhs",
-      type: "Pork",
-      image: "/images/menu/pork_schnitzel.jpg",
-    },
-    {
-      name: "Honey Glazed Ham",
-      price: "90 Dhs",
-      type: "Pork",
-      image: "/images/menu/honey_glazed_ham.jpg",
-    },
-  ],
+  // Porc: [
+  //   {
+  //     name: "Filet mignon de porc à la moutarde de Dijon",
+  //     price: "120 Dhs",
+  //     type: "Pork",
+  //     image: "/images/menu/filet_mignon_porc.jpg",
+  //   },
+  //   {
+  //     name: "Pulled Pork Sandwich",
+  //     price: "70 Dhs",
+  //     type: "Pork",
+  //     image: "/images/menu/pulled_pork_sandwich.jpg",
+  //   },
+  //   {
+  //     name: "Pork Schnitzel",
+  //     price: "80 Dhs",
+  //     type: "Pork",
+  //     image: "/images/menu/pork_schnitzel.jpg",
+  //   },
+  //   {
+  //     name: "Honey Glazed Ham",
+  //     price: "90 Dhs",
+  //     type: "Pork",
+  //     image: "/images/menu/honey_glazed_ham.jpg",
+  //   },
+  // ],
 
-  Quiche: [
-    {
-      name: "Quiche lorraine maison",
-      price: "65 Dhs",
-      type: "Quiche",
-      image: "/images/menu/quiche_lorraine.jpg",
-    },
-    {
-      name: "Quiche aux épinards et fromage de chèvre",
-      price: "65 Dhs",
-      type: "Quiche",
-      image: "/images/menu/quiche_epinards_fromage_chevre.jpg",
-    },
-    {
-      name: "Quiche aux poireaux et lardons",
-      price: "70 Dhs",
-      type: "Quiche",
-      image: "/images/menu/quiche_poireaux_lardons.jpg",
-    },
-    {
-      name: "Quiche aux champignons et au gruyère",
-      price: "60 Dhs",
-      type: "Quiche",
-      image: "/images/menu/quiche_champignons_gruyere.jpg",
-    },
-  ],
+  // Quiche: [
+  //   {
+  //     name: "Quiche lorraine maison",
+  //     price: "65 Dhs",
+  //     type: "Quiche",
+  //     image: "/images/menu/quiche_lorraine.jpg",
+  //   },
+  //   {
+  //     name: "Quiche aux épinards et fromage de chèvre",
+  //     price: "65 Dhs",
+  //     type: "Quiche",
+  //     image: "/images/menu/quiche_epinards_fromage_chevre.jpg",
+  //   },
+  //   {
+  //     name: "Quiche aux poireaux et lardons",
+  //     price: "70 Dhs",
+  //     type: "Quiche",
+  //     image: "/images/menu/quiche_poireaux_lardons.jpg",
+  //   },
+  //   {
+  //     name: "Quiche aux champignons et au gruyère",
+  //     price: "60 Dhs",
+  //     type: "Quiche",
+  //     image: "/images/menu/quiche_champignons_gruyere.jpg",
+  //   },
+  // ],
 
-  Salade: [
-    {
-      name: "Salade niçoise traditionnelle",
-      price: "70 Dhs",
-      type: "Salad",
-      image: "/images/menu/salade_nicoise.jpg",
-    },
-    {
-      name: "Salade de chèvre chaud aux noix",
-      price: "75 Dhs",
-      type: "Salad",
-      image: "/images/menu/salade_chevre_chaud.jpg",
-    },
-    {
-      name: "Salade César",
-      price: "75 Dhs",
-      type: "Salad",
-      image: "/images/menu/salade_cesar.jpg",
-    },
-    {
-      name: "Salade de Quinoa aux Légumes Rôtis",
-      price: "80 Dhs",
-      type: "Salad",
-      image: "/images/menu/salade_quinoa_legumes.jpg",
-    },
-  ],
+  // Salade: [
+  //   {
+  //     name: "Salade niçoise traditionnelle",
+  //     price: "70 Dhs",
+  //     type: "Salad",
+  //     image: "/images/menu/salade_nicoise.jpg",
+  //   },
+  //   {
+  //     name: "Salade de chèvre chaud aux noix",
+  //     price: "75 Dhs",
+  //     type: "Salad",
+  //     image: "/images/menu/salade_chevre_chaud.jpg",
+  //   },
+  //   {
+  //     name: "Salade César",
+  //     price: "75 Dhs",
+  //     type: "Salad",
+  //     image: "/images/menu/salade_cesar.jpg",
+  //   },
+  //   {
+  //     name: "Salade de Quinoa aux Légumes Rôtis",
+  //     price: "80 Dhs",
+  //     type: "Salad",
+  //     image: "/images/menu/salade_quinoa_legumes.jpg",
+  //   },
+  // ],
 
-  Végétarienne: [
-    {
-      name: "Poêlée de légumes de saison",
-      price: "60 Dhs",
-      type: "Vegetarian",
-      image: "/images/menu/poelee_legumes2.jpg",
-    },
-    {
-      name: "Salade méditerranéenne",
-      price: "55 Dhs",
-      type: "Vegetarian",
-      image: "/images/menu/salade_mediterraneenne.jpg",
-    },
-    {
-      name: "Ratatouille provençale",
-      price: "60 Dhs",
-      type: "Vegetarian",
-      image: "/images/menu/ratatouille.jpg",
-    },
-  ],
+  // Végétarienne: [
+  //   {
+  //     name: "Poêlée de légumes de saison",
+  //     price: "60 Dhs",
+  //     type: "Vegetarian",
+  //     image: "/images/menu/poelee_legumes2.jpg",
+  //   },
+  //   {
+  //     name: "Salade méditerranéenne",
+  //     price: "55 Dhs",
+  //     type: "Vegetarian",
+  //     image: "/images/menu/salade_mediterraneenne.jpg",
+  //   },
+  //   {
+  //     name: "Ratatouille provençale",
+  //     price: "60 Dhs",
+  //     type: "Vegetarian",
+  //     image: "/images/menu/ratatouille.jpg",
+  //   },
+  // ],
 };

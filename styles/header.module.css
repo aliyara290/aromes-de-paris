@@ -101,7 +101,7 @@
 .pages li div {
   font-size: 2.8rem;
   font-weight: 600;
-  font-family: "Playfair";
+  font-family: "Brother";
   color: transparent;
   position: relative;
   overflow: hidden;
@@ -159,6 +159,7 @@
   font-weight: 300;
   color: var(--gold);
   position: relative;
+  font-family: 'Pacifico';
 }
 
 .social ul li a::after {

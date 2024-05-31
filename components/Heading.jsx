@@ -55,7 +55,6 @@ const Title = ({
     <div className={style.content}>
       {showSubHeading && (
         <div className={style.sub_heading}>
-          <span className={style.point}></span>
           <span>{subHeading}</span>
         </div>
       )}

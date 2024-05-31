@@ -23,15 +23,16 @@
 
 .heading h1 {
     font-size: 3rem;
-    font-family: "Playfair";
+    font-family: "Brother";
     font-weight: 600;
     color: var(--silver);
 }
 .details h3 {
-    font-size: var(--fz-sm);
+    font-size: var(--fz-lg);
     color: var(--silver);
     padding-bottom: 12px;
-    text-transform: uppercase;
+    text-transform:capitalize;
+    font-family: 'Pacifico';
 }
 .details span {
     font-size: var(--fz-sm);

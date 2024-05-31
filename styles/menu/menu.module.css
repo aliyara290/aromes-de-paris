@@ -23,7 +23,8 @@
 }
 .category h2 {
   font-size: var(--fz-lg);
-  font-weight: 600;
+  font-family: 'Pacifico';
+  font-weight: 500;
   padding-bottom: 20px;
   color: var(--silver);
 }
@@ -52,6 +53,7 @@
   display: flex;
   justify-content: end;
   color: var(--silver);
+  font-family: 'Pacifico';
 }
 
 
